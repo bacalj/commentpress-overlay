@@ -1,6 +1,6 @@
 jQuery( document ).ready(function() {
 
-    //take out the unwanted menu items
+    //styling
     jQuery('#header').css('background', '#3A81A8');
     jQuery('.sidebar_contents_wrapper, #sidebar_tabs, .sidebar_header, #footer, #footer_inner, h3.activity_heading, #toc_list').css('background', 'white');
     jQuery('h1, h2, h3').css('text-transform', 'none');
@@ -10,7 +10,7 @@ jQuery( document ).ready(function() {
     jQuery('a.comment_block_permalink').css('text-transform', 'lowercase');
     jQuery('a.comment_block_permalink').css('padding-left', '8px');
 
-    //styling
+    //take out unwanted menu items
     jQuery('.special_pages_wrapper a#btn_blog').closest('li').remove();
     jQuery('.special_pages_wrapper a#btn_archive').closest('li').remove();
     jQuery('.special_pages_wrapper a#btn_cover').closest('li').remove();
